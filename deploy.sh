@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ./public
 git init
 git config --global push.default matching
