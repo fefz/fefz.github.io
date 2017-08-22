@@ -1,0 +1,23 @@
+language: node_js
+
+node_js: stable
+
+install:
+  - npm install
+
+script:
+  - hexo cl
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "devfz"
+  - git config user.email "imswing@gmail.com"
+  - git add .
+  - git commit -m "update"
+  - git push --quiet --force https://d8c784a43a979031d3960c4179cd7f5d746a6e39@github.com/devfz/8it.io.git master
+
+branches:
+  only:
+    - raw
