@@ -12,10 +12,10 @@ after_script:
   - cd ./public
   - git init
   - git config --global push.default matching
-  - git config --global user.email "imswing@gmail.com"
-  - git config --global user.name "devfz"
+  - git config --global user.email "${GH_MAIL}"
+  - git config --global user.name "${GH_USER}"
   - git add --all .
-  - git commit -m "Auto Builder of ${GITHUB_USER}'s Blog"
+  - git commit -m "Auto Builder of ${GH_USER}'s Blog"
   - git push -f "https://${GH_TOKEN}@${GH_REFS}" master:master
 branches:
   only:
