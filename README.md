@@ -1,2 +1,2 @@
-# 8it.io [![Build Status](https://travis-ci.org/devfz/8it.io.svg?branch=master)](https://travis-ci.org/devfz/8it.io)
-## This is my blog
+# 8it.io [![Build Status](https://travis-ci.org/devfz/devfz.github.io.svg?branch=master)](https://travis-ci.org/devfz/devfz.github.io)
+### This is my blog
