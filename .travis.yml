@@ -21,7 +21,7 @@ after_script:
   - cd ./public
   - git add --all .
   - git commit -m "Auto Builder of ${GH_USER}'s Blog"
-  - git push -f "https://${GH_TOKEN}@${GH_REFS}" master
+  - git push --quiet --force https://${GH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git master
 branches:
   only:
     - raw
