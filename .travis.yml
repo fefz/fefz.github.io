@@ -11,7 +11,7 @@ install:
   - cd ./themes
   - git submodule init
   - git submodule update
-  - cp ./_config.theme.yml ./hexo-theme-material/_config.yml
+  - cp ./../_config.theme.yml ./hexo-theme-material/_config.yml
 script:
   - cd ..
   - hexo clean
