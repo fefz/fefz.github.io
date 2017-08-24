@@ -11,6 +11,7 @@ install:
   - cd ./themes
   - git submodule init
   - git submodule update
+  - cp ./_config.theme.yml ./hexo-theme-material/_config.yml
 script:
   - cd ..
   - hexo clean
@@ -20,7 +21,7 @@ after_script:
   - cd ./public
   - git add --all .
   - git commit -m "Auto Builder of ${GH_USER}'s Blog"
-  - git push -f "https://${GH_TOKEN}@${GH_REFS}" master:master
+  - git push -f "https://${GH_TOKEN}@${GH_REFS}" master
 branches:
   only:
     - raw
