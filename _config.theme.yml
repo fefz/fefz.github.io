@@ -170,11 +170,11 @@ sidebar:
         use: false
         divider: false
     footer:
-        divider: true
-        theme: true
+        divider: false
+        theme: false
         support: false
         feedback: false
-        material: false
+        material: true
 
 
 # ---------------------------------------------------------------
