@@ -4,7 +4,6 @@ node_js: stable
 install:
   - npm install hexo-cli -g
   - npm install
-  - git init
   - git config --global push.default matching
   - git config --global user.email "${GH_MAIL}"
   - git config --global user.name "${GH_USER}"
@@ -19,6 +18,7 @@ script:
   - ls
 after_script:
   - cd ./public
+  - git init
   - git add --all .
   - git commit -m "Auto Builder of ${GH_USER}'s Blog"
   - git push --quiet --force https://${GH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git master
