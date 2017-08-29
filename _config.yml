@@ -46,7 +46,7 @@ highlight:
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
-  theme: 'Atom Dark'
+  theme: 'atom-dark'
   line_number: true    # default false  
   
 # Home page setting
