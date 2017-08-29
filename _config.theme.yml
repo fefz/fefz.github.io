@@ -145,7 +145,7 @@ sns_share:
 
 # Sidebar Customize
 sidebar:
-    dropdown: false
+    dropdown:
         Email Me:
             link: "mailto: admin@8it.io"
             icon: email
