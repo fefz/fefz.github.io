@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 8it
 subtitle:
-description:
-author: John Doe
-language:
-timezone:
+description: bit,byte,develop,frontend,javascript
+author: swing
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -38,10 +38,16 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
+  enable: false
+  line_number: 
+  auto_detect: 
   tab_replace:
+
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'Atom Dark'
+  line_number: true    # default false  
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

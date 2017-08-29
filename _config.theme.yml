@@ -9,7 +9,7 @@ head:
     apple_touch_icon: "/img/favicon.png"
     keywords:
     site_verification:
-        google:
+        google: "I_qQUIAom1ElsFuYWUuldDwKJgtQ4QtbrwzhhJAy1uw"
         baidu:
 
     # Enable generate structured-data as JSON+LD for SEO or not.
@@ -120,10 +120,10 @@ toc:
 
 # SNS Menu
 sns:
-    email: admin@8it.io
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
-    googleplus: "https://www.google.com/"
+    email: 
+    facebook: 
+    twitter: 
+    googleplus: 
     weibo:
     instagram:
     tumblr:
@@ -135,10 +135,10 @@ sns:
 
 # SNS Share Switch
 sns_share:
-    twitter: true
-    facebook: true
-    googleplus: true
-    weibo: true
+    twitter: false
+    facebook: false
+    googleplus: false
+    weibo: false
     linkedin: false
     qq: false
     telegram: false
@@ -147,7 +147,7 @@ sns_share:
 sidebar:
     dropdown:
         Email Me:
-            link: "#"
+            link: "mailto: admin@8it.io"
             icon: email
     homepage:
         use: true
