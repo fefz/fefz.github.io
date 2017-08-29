@@ -116,7 +116,7 @@ qrcode:
 toc:
 #   use: choose whether the line_number of toc will show or not.
 #       Available value of "linenumber": true | false
-    linenumber: true
+    linenumber: false
 
 # SNS Menu
 sns:
@@ -135,17 +135,17 @@ sns:
 
 # SNS Share Switch
 sns_share:
-    twitter: false
+    twitter: true
     facebook: false
     googleplus: false
-    weibo: false
-    linkedin: false
-    qq: false
+    weibo: true
+    linkedin: true
+    qq: true
     telegram: false
 
 # Sidebar Customize
 sidebar:
-    dropdown:
+    dropdown: false
         Email Me:
             link: "mailto: admin@8it.io"
             icon: email
