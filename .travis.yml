@@ -9,8 +9,12 @@ install:
   - git config --global user.name "${GH_USER}"
   - cd ./themes
   - git submodule init
+  - git submodule update
+  - cp ./../_config.theme.yml ./hexo-theme-material/_config.yml
+  - cd ./hexo-theme-material
   - git branch
   - git checkout canary
+  - cd ..
 script:
   - cd ..
   - hexo clean
