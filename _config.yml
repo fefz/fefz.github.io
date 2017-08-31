@@ -27,11 +27,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'atom-dark'
-  line_number: true    # default false  
-
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -45,8 +40,15 @@ future: true
 highlight:
   enable: false
   line_number: false
-  auto_detect: false
-  tab_replace: false
+  auto_detect: true
+  tab_replace: true
+
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'atom-dark'
+  line_number: true    # default false 
+
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
