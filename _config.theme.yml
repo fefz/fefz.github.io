@@ -124,8 +124,8 @@ qrcode:
 #         theme value:
 #         theme-name  # /vendors/prettify/themes/[theme-name].css
 prettify:
-    enable: false
-    theme: "vibrant-ink" # default value: "vibrant-ink"   # theme-name without '.css'
+    enable: true
+    theme: "tranquil-heart" # default value: "vibrant-ink"   # theme-name without '.css'
 
 #     Hanabi
 #         hanabi © egoist, Released under the MIT License
@@ -158,11 +158,11 @@ license:
 toc:
 #   use: choose whether the line_number of toc will show or not.
 #       Available value of "linenumber": true | false
-    linenumber: true
+    linenumber: false
 
 # SNS Menu
 sns:
-    email: admin@8it.io
+    email: 
     facebook: 
     twitter: 
     googleplus: 
