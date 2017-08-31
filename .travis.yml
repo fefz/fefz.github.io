@@ -14,6 +14,7 @@ install:
   - cd ./hexo-theme-material
   - git branch
   - git checkout canary
+  - git branch
   - cd ..
 script:
   - cd ..
