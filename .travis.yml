@@ -10,11 +10,11 @@ install:
   - cd ./themes
   - git submodule init
   - git submodule update
-  - cp ./../_config.theme.yml ./hexo-theme-material/_config.yml
   - cd ./hexo-theme-material
   - git branch
   - git checkout canary
   - git branch
+  - cp ./../../_config.theme.yml _config.yml
   - cd ..
 script:
   - cd ..
