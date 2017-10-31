@@ -79,3 +79,9 @@ theme: hexo-theme-material
 deploy:
   # type: git
   # repo: https://github.com/devfz/8it.io.git
+
+disqus_proxy:
+  shortname: '8it-io'
+  username: asweing
+  host: 8it.io
+  port: 1214
