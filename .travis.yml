@@ -7,15 +7,6 @@ install:
   - git config --global push.default matching
   - git config --global user.email "${GH_MAIL}"
   - git config --global user.name "${GH_USER}"
-  - cd ./themes
-  - git submodule init
-  - git submodule update
-  - cd ./hexo-theme-material
-  - git branch
-  - git checkout canary
-  - git branch
-  - cd ../..
-  - cp ./_config.theme.yml ./themes/hexo-theme-material/_config.yml
 script:
   - hexo clean
   - hexo g
