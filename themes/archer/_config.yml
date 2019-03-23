@@ -93,13 +93,13 @@ comment:
 # enable Busuanzi analytics
 busuanzi: true
 # fill in pv or uv
-busuanzi_pv_or_uv: 'pv'
+busuanzi_pv_or_uv: 'uv'
 # custom analytic slogan, '${count}' is the analytic number, DO NOT modify it.
-busuanzi_slug: 'PV: ${count} :)'
+busuanzi_slug: 'uv: ${count} :)'
 # Baidu analytics
-baidu_analytics: 
+baidu_analytics: 19143825d85fdec0ca38849c8ae7e28d
 # Google analytics
-google_analytics: 
+google_analytics: UA-136755685-1
 # CNZZ analytics
 CNZZ_analytics: 
 
