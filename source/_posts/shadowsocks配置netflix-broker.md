@@ -11,7 +11,7 @@ tags: 科学上网
 
 首先获取ss最新代码
 
-```git clone https://github.com/shadowsocks/shadowsocks/ -b master ```
+`git clone https://github.com/shadowsocks/shadowsocks/ -b master `
 
 CentOS安装所需依赖
 
@@ -20,7 +20,7 @@ sudo yum groupinstall 'Development Tools'
 sudo yum install gettext gcc autoconf libtool automake make asciidoc xmlto c-ares-devel libev-devel
 ```
 
-使用```chacha20```AEAD加密需要额外安装`libsodium`
+使用`chacha20`AEAD加密需要额外安装`libsodium`
 ```bash 
 yum install epel-release
 yum install libsodium`
