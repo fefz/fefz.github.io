@@ -30,9 +30,6 @@ social:
   rss: 
 # friends
 friends:
-  friendA: 
-  friendB: 
-  friendC: 
 about:
   enable: false
   image: '/intro/about-bg.jpg'
