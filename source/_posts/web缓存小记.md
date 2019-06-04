@@ -31,8 +31,7 @@ tags: web
 
     缓存过期时间，存在于响应头中，和`Last-modified`配合使用，表示一个服务器端具体的时间点，值等于max-age加上请求的时间，在这个时间内浏览器可以直接缓存数据，不用再次请求，但是优先级低于`Cache-Control`，如果同时存在，会被覆盖。
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c09913cb-949c-4006-9b59-de00be0a6ac3/untitled?AWSAccessKeyId=ASIAT73L2G45ECIIVWNE&Expires=1552213598&Signature=7ttKzYJE4p%2FiU6RNDFno9OzOg4M%3D&response-content-disposition=filename%20%3D%22untitled%22&x-amz-security-token=FQoGZXIvYXdzELf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDL%2F3v9ikx%2BYwRiru%2FCK3AxYC3kKDKiXSEUaf4S5mIQhMc%2FitdhN%2F1TNUcGgrG0Bh5bhf8Ln2AH4qqUF%2By0jDL%2F9wwOb7EhTCce4CvixGC2EApdi53IrPSUmKVOgctksdJ2XsmHZAKxXthfMsBA6GF1J5u4YJ27uv%2BCEN0B915qF8BIHoJORYBEoJ8TASmbTU5awuP5i8oI3OcnoNUYaNZ2mNoUHyMJxwMVF4hNh%2F%2BDmFu6JvDzCM8zs435L21Y2mXao46wE%2FmItr224l2lFmdO0U3H5ZDHP7TgoIRU6iojpBFzXhFDX2k8TA5XwDntmtiQDkbjbS%2BVFZIiiNRMv26vFCeq7Izl4tKD6I9aCaOkF3G7vNEZuPrSmozDfPKiTp0ucURCabDulL%2BKUpsmDgtpE9tWpcuSaUm37NlsimolXOYP0V5qbymTQvSfF4qhOwrKIs6jSobN%2FjDRTGvVJpet12cgXddZzCEex8AN1pIgwsYRnmNMDH5N8pPkvwTboTiMaXxm043WYz835l6cgOGAPb9B04T9lbK0nZ3Xb8Q%2BN55c8F%2B9Qn80mP89en33dwduYt1KS02TkkU9LkssY%2F6y3ni62ERo8ovqeN5AU%3D)
-
+    ![](/images/req_header.png)
 - Cache-Control是HTTP1.1 的新的属性，默认优先级较高
 
 ### 2. 协商缓存
@@ -49,7 +48,7 @@ tags: web
 
 ### 3. 最佳实践
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eca9dc56-084b-4fbf-b4a2-2b800861142f/untitled?AWSAccessKeyId=ASIAT73L2G45FISWG66G&Expires=1552213632&Signature=6NW2kDyldadBcWN4f5tDVcJJ9zc%3D&response-content-disposition=filename%20%3D%22untitled%22&x-amz-security-token=FQoGZXIvYXdzELf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDIoAvE3%2BvrM8JHt0hSK3A%2Bhoo%2Bo7lF2NBNj4MCOv2q1H4FCseBz0D9SqNo6rIQmtR32gjzg%2B5VvXipOoLB8HFJMB7lEmYbHgegrrx4%2B5Z%2Fbv0WFHPAF9zQ99%2B1JSCAK1YeV44p7pmWJ5iiT5LkuY2OyoXL%2FRjGHT1Pe1QoxRCjrHl3LerdJv0bj2em6dQZvkQB1iohJx1iA%2B%2FViTLIH5B%2Bn%2BPaELXrxl5jwVNrBmreJ4ljHNincSIrTYnRh27EMI%2BCzYKgrV7z4%2FzI3rjB6PQAe8r13RpGdH9ooEbz%2Fb3X%2FU5iLqiVVkJQzR%2FHgmvKqMBsW4DwGtfKFECwNTYiVT9PUMB4SksmX6RRuS9oy8w8IN5s1K5%2F02KLyc6QnfiOwFfMo442ZlRTQEZqyhi%2Bin0Y%2BJ05cq05J657%2B6%2FzA8rwW6iw7XA6b1xkDx0Ewr0nlAPoqQUmrB5I72RgoV61FjYz%2FiZRzjXFbYLxCxOqE5d%2F2W%2B8z%2FrEbE37Z0BFeGxJfQKNte8zZ6ICMyB5ZVVZaVpWQQfygYH4xHXPo2jSRHdLE7bDS%2BM0sF2GbYuBpnF8IefU%2BFTo%2Fn6IKkbwOow3Yx2H2Iol%2FFHkgo2ayN5AU%3D)
+![](/../images/flow.png)
 
 > [http://www.alloyteam.com/2016/03/discussion-on-web-caching/](http://www.alloyteam.com/2016/03/discussion-on-web-caching/)
 
